@@ -1,0 +1,28 @@
+{
+    "college_degrees": [
+        {
+            "current": {
+                "school": "Buston University",
+                "program/major": "Software Development",
+                "type": "MS",
+                "year conferred": "2023"
+            }
+        },
+        {
+            "master": {
+                "school": "University of New Hampshire",
+                "program/major": "Business Administration",
+                "type": "MBA",
+                "year conferred": "2019"
+            }
+        },
+        {
+            "bechelor": {
+                "school": "Datong University",
+                "program/major": "English Education",
+                "type": "BA",
+                "year conferred": "2012"
+            }
+        }
+    ]
+}
