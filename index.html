@@ -5,27 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>home</title>
+    <script src="script.js"></script>
+
 </head>
 
 <body>
     <h1>Hui's degrees</h1>
     <input type="button" value="View Details" onclick="fetchData()">
-    <script>
-        async function fetchData(url="https://github.com/hwbu/CS601-Assignment5/blob/main/degrees.json", num={answer: 42}){
-            const response = await fetch(url, {
-                method: 'POST',
-                mode: 'cors',
-                headers: {
-                'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(num)
-            });
-            const data = await response.json();
-            document.getElementById('info')
-            .innerText = data;
-            document.write(response.status);
-}
-    </script>
-    <div id="info"></div>
+    <table id="degrees"></table>
 </body>
 </html>
